@@ -1,0 +1,23 @@
+﻿<Window x:Class="ProgrammingApp0.Task1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgrammingApp0"
+        mc:Ignorable="d"
+        Title="Task1" Height="450" Width="800">
+    <Grid Margin="0,0,3.333,-0.333">
+        <Button x:Name="ButtonBackMenu" Content="Назад" HorizontalAlignment="Left" Margin="698,382,0,0" VerticalAlignment="Top" Width="85" FontSize="18" Cursor="Hand" Click="Button_Click"/>
+        <Label Content="Из куба с ребром а был выточен шар радиуса R." Margin="10,10,192.333,0" VerticalAlignment="Top" Height="38" FontSize="22"/>
+        <Label Content="Введите исходные данные:" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="а =" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button x:Name="runtask1" Content="Вычислить" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top" Width="115" FontSize="18" Height="39" Click="runtask1_Click" Cursor="Hand"/>
+        <TextBox x:Name="InputSide" HorizontalAlignment="Left" Height="30" Margin="57,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="22" TextChanged="InputSide_TextChanged"/>
+        <Label Content="Вычислить объемы куба и шара, а также" Margin="10,32,325.333,0" VerticalAlignment="Top" Height="40" FontSize="22"/>
+        <Label Content="процент материала, ушедшего в отходы." Margin="10,53,325.333,0" VerticalAlignment="Top" Height="47" FontSize="22"/>
+        <Label Content="R =" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="InputRadius" HorizontalAlignment="Left" Height="30" Margin="57,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="22" TextChanged="InputRadius_TextChanged"/>
+        <Label Content="*радиус должен быть меньше либо равен половины стороны куба" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF9B9898"/>
+
+    </Grid>
+</Window>
